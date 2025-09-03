@@ -8,5 +8,6 @@ function draw() {
    if(mouse.presses("left")) {
     let clone = new Sprite (mouseX, mouseY);
     clone.collider = "dynamic";
+    noStroke();
    }
 }
