@@ -1,4 +1,4 @@
-
+let ball;
 
 function setup() {
   new Canvas(600,400);
@@ -8,7 +8,7 @@ function setup() {
 function draw() {
     background(220);
    if(mouse.presses("left")) {
-    let clone = new Sprite (mouseX, mouseY, 30, 'dynamic');
+    let ball = new Sprite (mouseX, mouseY, 30, 'dynamic');
     noStroke();
    }
 }
